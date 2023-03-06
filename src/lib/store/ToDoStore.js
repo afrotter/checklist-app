@@ -10,7 +10,7 @@ export const todos = writable(data);
 
 todos.subscribe((value) => {
     if (browser) {
-        localStorage.setItem('st-todo-list', JSON.stringify());
+        localStorage.setItem('st-todo-list', JSON.stringify(value));
     }
 });
 
