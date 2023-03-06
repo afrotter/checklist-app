@@ -8,7 +8,7 @@
 	>
 		<h1 class="text-2xl font-bold text-gray-three">Dashboard</h1>
 		<div class="mt-10">
-            <AddTodoSection />
-        </div>
-    </main>
+			<AddTodoSection />
+		</div>
+	</main>
 </div>
